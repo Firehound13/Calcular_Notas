@@ -17,13 +17,14 @@ def calcular_media_total(alunos):
 
 def atribuir_letra_nota(nota_final_aluno):
     """Atribui uma letra para a nota tirada."""
-    if nota_final_aluno >= 90
+    if nota_final_aluno >= 90:
         return "A"
-    elif nota_final_aluno >= 80
+    elif nota_final_aluno >= 80:
         return "B"
-    elif nota_final_aluno >= 70
+    elif nota_final_aluno >= 70:
         return "C"
-    elif nota_final_aluno >= 60
+    elif nota_final_aluno >= 60:
+        return "D"
      else:
         return "F"
 
