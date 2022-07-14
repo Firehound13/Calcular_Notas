@@ -44,7 +44,7 @@ if _name__ == __main__:
    for aluno, detalhes in alunos.items():
        print(f"\n {alunos[aluno]['nome']}")
        print("--------")
-       media_total_aluno = round(calcular_media_total[alunos][alauno], 1)
+       media_total_aluno = round(calcular_media_total[alunos][aluno], 1)
        print(f"Média de nota do(a) alunos é {alunos[aluno]['nome']")
        print(f"Notal final do aluno(a) é {alunos[aluno]['nome']} é:{atribuir_letra_nota[media_total_aluno]}")
 
